@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="segment.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Inverse_Kinematics_Bot.py" />
     <Compile Include="simulation.py">
       <SubType>Code</SubType>
