@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="conversions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="segment.py">
       <SubType>Code</SubType>
     </Compile>
